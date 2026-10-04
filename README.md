@@ -1,22 +1,22 @@
-# Phone PC Remote — desktop downloads
+# Phone PC Remote — official downloads
 
-Windows and Ubuntu companion apps for Phone PC Remote on Android.
+Use your Android phone to control a Windows or Ubuntu computer on your local network. Start at the [download page](https://nilsenj.github.io/phone-pc-remote/) or choose a platform below. You need the Android app **and** a desktop companion.
 
-## Download status
+## Download
 
-**No desktop installers have been published here yet.** Release candidates are being validated. Windows signing is pending; Ubuntu remains beta pending real-hardware validation. This page is not a claim that the builds are production-ready.
-
-| Platform | Package | Status |
+| Platform | Download | Status |
 | --- | --- | --- |
-| Windows x64 | `.exe` installer | Signing and release validation pending |
-| Ubuntu amd64 | `.deb` package | Ubuntu 24.04 baseline; beta validation pending |
-| Android | Google Play | Separately managed; availability depends on testing access and region |
+| Android | [Signed APK 0.1.26](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/android-v0.1.26) | Public GitHub download; Google Play is currently limited to testers |
+| Windows 11 x64 | [Microsoft Store](https://apps.microsoft.com/detail/9NP7CKV77CRK) | Free MSIX Store app; no EXE installer |
+| Ubuntu 24.04+ amd64 | [`.deb` 0.1.26 beta](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/desktop-v0.1.26-beta.1) | Beta; physical-hardware and crash recovery validation incomplete |
 
-[View desktop releases](https://github.com/nilsenj/phone-pc-remote-releases/releases) · [Android on Google Play](https://play.google.com/store/apps/details?id=dev.phonepcremote.app)
+The GitHub Android APK has a different signing certificate from the Google Play build. Neither can update the other. Switching channels can require uninstalling and may erase pairings or app data; do not uninstall an existing Play build just to try the APK.
+
+Phone-as-webcam is available in the Ubuntu beta, not in the Windows MSIX app. Bluetooth control is not offered in the current release. Read the [Ubuntu beta notes](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/desktop-v0.1.26-beta.1) before using its camera feature.
 
 ## Getting started
 
-1. Install the appropriate desktop companion when a release becomes available.
+1. Install the Android app and the appropriate desktop companion above.
 2. Connect the phone and computer to a mutually reachable local network. Guest Wi-Fi or device isolation can prevent discovery.
 3. Launch Phone PC Remote on the computer and scan its pairing QR code in the Android app.
 4. Follow the pairing prompts. Do not share the QR code or pairing credentials publicly.
@@ -25,9 +25,9 @@ See [installation and update instructions](INSTALL.md).
 
 ## Releases and updates
 
-Published releases will include versioned installers, release notes, and SHA-256 checksums. Initially, updates are installed manually over the existing version. Automatic desktop updates are not currently promised.
+The Ubuntu release includes a versioned `.deb`, notes and `SHA256SUMS.txt`. Ubuntu updates are currently installed manually over the existing package; an APT repository or automatic updater is not available. Windows installation and updates go through Microsoft Store. Android GitHub APK updates remain separate from Google Play.
 
-Only download installers from releases linked by this repository. Do not disable security protections to bypass an installer warning. Checksums detect corruption; they are not a substitute for signing and trusted download sources.
+Only download installers from the official links above. Do not disable security protections to bypass an installer warning. Checksums detect corruption; they are not a substitute for signing and trusted download sources.
 
 ## Repository scope
 
