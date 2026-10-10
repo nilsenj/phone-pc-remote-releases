@@ -6,7 +6,7 @@ Use your Android phone to control a Windows or Ubuntu computer on your local net
 
 | Platform | Download | Status |
 | --- | --- | --- |
-| Android | [Signed APK 0.1.26](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/android-v0.1.26) | Public GitHub download; Google Play is currently limited to testers |
+| Android | [Signed APK 0.1.28](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/android-v0.1.28) | Public GitHub download; Google Play is currently limited to testers |
 | Windows 11 x64 | [Microsoft Store](https://apps.microsoft.com/detail/9NP7CKV77CRK) | Free MSIX Store app; no EXE installer |
 | Ubuntu 24.04+ amd64 | [`.deb` 0.1.26 beta](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/desktop-v0.1.26-beta.1) | Beta; physical-hardware and crash recovery validation incomplete |
 
