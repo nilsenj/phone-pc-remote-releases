@@ -1,6 +1,6 @@
 # Install Phone PC Remote
 
-Install the [Android app](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/android-v0.1.28) and one desktop companion. Both devices must be able to reach each other on the same local network. The GitHub Android APK is signed differently from Google Play and cannot update an existing Play installation; switching channels may erase app data and pairings. Google Play is currently limited to testers.
+Install Phone PC Remote for [Android from Google Play](https://play.google.com/store/apps/details?id=dev.phonepcremote.app) and one desktop companion. Both devices must be able to reach each other on the same local network. Use Google Play for Android updates.
 
 ## Windows 11 x64
 
@@ -31,4 +31,3 @@ downgrading across data-format changes is supported.
 
 Development builds, signing keys, credentials, and test packages must never be
 included in a public desktop release.
-
