@@ -1,6 +1,6 @@
 # Install Phone PC Remote
 
-Install Phone PC Remote for [Android from Google Play](https://play.google.com/store/apps/details?id=dev.phonepcremote.app) and one desktop companion. Both devices must be able to reach each other on the same local network. Use Google Play for Android updates.
+Install Phone PC Remote for [Android from Google Play](https://play.google.com/store/apps/details?id=dev.phonepcremote.app) and one desktop companion. Both devices must be able to reach each other on the same local network. Use Google Play for Android updates and Pro purchases. The GitHub 0.1.32 APK is for a fresh sideload and cannot update earlier GitHub or Play installations.
 
 ## Windows 11 x64
 
@@ -10,16 +10,16 @@ Launch Phone PC Remote on Windows and scan its pairing QR code with the Android 
 
 ## Ubuntu 24.04+ amd64 beta
 
-Download [`Phone.PC.Remote_0.1.26_amd64.deb`](https://github.com/nilsenj/phone-pc-remote-releases/releases/download/desktop-v0.1.26-beta.1/Phone.PC.Remote_0.1.26_amd64.deb) and the matching [`SHA256SUMS.txt`](https://github.com/nilsenj/phone-pc-remote-releases/releases/download/desktop-v0.1.26-beta.1/SHA256SUMS.txt) from the [Ubuntu beta release](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/desktop-v0.1.26-beta.1). In the directory containing both files, verify and install:
+Download [`Phone.PC.Remote_0.1.27_amd64.deb`](https://github.com/nilsenj/phone-pc-remote-releases/releases/download/desktop-v0.1.27-beta.1/Phone.PC.Remote_0.1.27_amd64.deb) and the matching [`SHA256SUMS.txt`](https://github.com/nilsenj/phone-pc-remote-releases/releases/download/desktop-v0.1.27-beta.1/SHA256SUMS.txt) from the [Ubuntu beta release](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/desktop-v0.1.27-beta.1). In the directory containing both files, verify and install:
 
 ```sh
 sha256sum -c SHA256SUMS.txt
-sudo apt install ./Phone.PC.Remote_0.1.26_amd64.deb
+sudo apt install ./Phone.PC.Remote_0.1.27_amd64.deb
 ```
 
 Launch from the application menu, then scan the desktop app's pairing QR code with the Android app. Camera and remote-input support depend on kernel modules and desktop-session permissions. The webcam feature needs `v4l2loopback-dkms` and matching kernel headers; Secure Boot may require module signing/enrolment. Do not run the network-facing app as root to work around setup errors.
 
-This build passed package checks and a phone-camera start/stop/restart test in an Ubuntu VirtualBox VM, not on a physical Ubuntu computer. After an unexpected app crash following camera use, the virtual camera may lose capture capability until Ubuntu is rebooted. Read the release notes before relying on it.
+This build passed package checks on Ubuntu 24.04. Pairing and mirroring were exercised with the Ubuntu companion in WSL. Native Wayland and webcam behavior remain unverified for this build. The previous beta could require a reboot to restore the webcam after a crash.
 
 ## Updates and verification
 

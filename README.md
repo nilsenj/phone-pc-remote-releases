@@ -6,13 +6,13 @@ Use your Android phone to control a Windows or Ubuntu computer on your local net
 
 | Platform | Download | Status |
 | --- | --- | --- |
-| Android | [Signed APK 0.1.28](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/android-v0.1.28) | Public GitHub download; Google Play is currently limited to testers |
+| Android | [Google Play](https://play.google.com/store/apps/details?id=dev.phonepcremote.app) · [GitHub APK for fresh sideloads](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/android-v0.1.32) | Use Google Play for regular updates and Pro purchases |
 | Windows 11 x64 | [Microsoft Store](https://apps.microsoft.com/detail/9NP7CKV77CRK) | Free MSIX Store app; no EXE installer |
-| Ubuntu 24.04+ amd64 | [`.deb` 0.1.26 beta](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/desktop-v0.1.26-beta.1) | Beta; physical-hardware and crash recovery validation incomplete |
+| Ubuntu 24.04+ amd64 | [`.deb` 0.1.27 beta](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/desktop-v0.1.27-beta.1) | Beta; physical-hardware and crash recovery validation incomplete |
 
-The GitHub Android APK has a different signing certificate from the Google Play build. Neither can update the other. Switching channels can require uninstalling and may erase pairings or app data; do not uninstall an existing Play build just to try the APK.
+The 0.1.32 GitHub APK uses a different signing certificate from Google Play and earlier GitHub APKs. It requires a fresh install. Uninstalling can erase pairings or app data. Keep using Google Play for an existing Play installation.
 
-Phone-as-webcam is available in the Ubuntu beta, not in the Windows MSIX app. Bluetooth control is not offered in the current release. Read the [Ubuntu beta notes](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/desktop-v0.1.26-beta.1) before using its camera feature.
+Phone-as-webcam is available in the Ubuntu beta, not in the Windows MSIX app. Bluetooth control is not offered in the current release. Read the [Ubuntu beta notes](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/desktop-v0.1.27-beta.1) before using its camera feature.
 
 ## Getting started
 
@@ -31,7 +31,7 @@ Only download installers from the official links above. Do not disable security 
 
 ## Repository scope
 
-This repository is for desktop distribution documentation and release assets. It does not contain the application's private source repository, development builds, test packages, or signing credentials. Android publishing is managed separately.
+This repository hosts public release assets and installation instructions for Phone PC Remote.
 
 ## Reporting problems
 
