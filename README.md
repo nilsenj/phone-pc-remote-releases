@@ -14,10 +14,6 @@ The 0.1.32 GitHub APK uses a different signing certificate from Google Play and 
 
 Phone-as-webcam is available in the Ubuntu beta, not in the Windows MSIX app. Bluetooth control is not offered in the current release. Read the [Ubuntu beta notes](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/desktop-v0.1.27-beta.1) before using its camera feature.
 
-## AI setup help
-
-The local MCP connector gives compatible AI clients official downloads, pairing steps and troubleshooting. [Get the connector](https://github.com/nilsenj/phone-pc-remote-releases/releases/tag/mcp-v0.1.0) and follow the [AI setup guide](https://nilsenj.github.io/phone-pc-remote/ai.html).
-
 ## Getting started
 
 1. Install the Android app and the appropriate desktop companion above.
